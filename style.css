@@ -6,16 +6,20 @@
   margin: 0;
 }
 
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 960px;
+  }
+
 html {
   background: url("https://c.wallhere.com/photos/16/af/wild_portrait_bw_woman_storm_girl_beautiful_face-869018.jpg!d") no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
 }
 
 #MainContainer {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
