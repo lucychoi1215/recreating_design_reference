@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  margin: 0;
+}
+
+html {
+  background: url("https://c.wallhere.com/photos/16/af/wild_portrait_bw_woman_storm_girl_beautiful_face-869018.jpg!d") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+#MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.rowcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+#N, #E, #E2, #V {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 340px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+p {
+  color: #e02457;
+}
+
+#numJuillet,#number,#a,#twentytwoH,#studioContainer,#a2,#numH,#num,#hq,#juilletnum,#mon p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#ledebatMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#ledebat {
+  margin-top: 20px;
+  border: 2px solid #e02457;
+  width: 100%;
+  height: auto;
+  font-family: 'Open Sans';
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  padding: 50px;
+}
+
+#ledebatSub {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  width: 100%;
+  height: auto;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 600;
+}
+
+#numJuilletMain, #numJuillet {
+  width: 50%;
+}
+
+#numJuillet {
+  border: 2px solid #e02457;
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: -10px;
+  padding-right: -10px;
+  /* color: #e02457; */
+
+}
+
+#number {
+  border: 2px solid #e02457;
+  width: 35%;
+  transform: translate(180px, 105px);
+  padding: 3px;
+  padding-left: 30px;
+}
+
+#a {
+  border: 2px solid #e02457;
+  width: 35%;
+  float: left;
+  text-align: right;
+  transform: translate(0px, 40px);
+  padding: 3px;
+  padding-right: 10px;
+  margin-left: 30px;
+
+}
+
+#twentytwoH{
+  border: 2px solid #e02457;
+  width: 40%;
+  float: right;
+
+  /* height: auto; */
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  transform: translate(85px, 85px);
+  padding: 3px;
+  padding-right: 10px;
+  /* color: #e02457; */
+
+}
+
+#studioContainer {
+  width:25%;
+  display: flex;
+  margin-top:auto;
+  align-items: baseline;
+  justify-content: flex-end;
+
+
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  /* padding: 3px; */
+}
+
+#studio {
+  padding: 3px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: 2px solid #e02457;
+}
+
+#aSub {
+  display:flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: center;
+  margin-left: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#a2 {
+  border: 2px solid #e02457;
+  width: 13%;
+  text-align: center;
+  padding: 3px;
+}
+
+#numH {
+  width: 30%;
+  border: 2px solid  #e02457;
+  text-align: center;
+  padding: 3px;
+}
+
+#num {
+  border: 2px solid #e02457;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+/* trying to use css selector */
+p+p {
+  margin-top : 10px;
+}
+
+#sub {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#subHorizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+
+#hq {
+  display: flex;
+  justify-content: flex-end;
+  width: 43%;
+  text-align: center;
+}
+
+#hq p {
+  width: 50%;
+  border: 2px solid #e02457;
+  text-align: center;
+  margin-right: 35px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#juilletnum {
+  width: 57%;
+  text-align: center;
+}
+
+#juilletnum p {
+  width: 90%;
+  border: 2px solid #e02457;
+  text-align: center;
+  margin-right: 35px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#mon {
+  display: flex;
+  width: 70%;
+  border: 2px solid #e02457;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  /* color: #e02457; */
+
+}
