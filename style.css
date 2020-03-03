@@ -12,10 +12,81 @@
     width: 960px;
   }
 
+/* sets background image to full screen */
 html {
   background: url("https://c.wallhere.com/photos/16/af/wild_portrait_bw_woman_storm_girl_beautiful_face-869018.jpg!d") no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 300px;
 }
 
+
+/* trying to get the blendmode and background image to work */
+
+/* #background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+/* #background img {
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+min-width: 50%;
+min-height: 50%;
+} */
+
+/* #text {
+  background-color: #ddfe33;
+  color: white;
+  font-size: 340px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  position: absolute;
+
+  mix-blend-mode: multiply;
+
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 340px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+} */
+
+/* #N2 {
+  margin-top: -12px;
+padding-right: 100vw;
+padding-left: 356px;
+margin-bottom: -100px;
+}
+
+#E3 {
+     padding-right: 100vw;
+     padding-left: 717px;
+     margin-bottom: -100px;
+     transform: translate(0,-100px);
+}
+
+#E4 {
+  margin-bottom: -100px;
+  transform: translate(-181px,-212px);
+}
+
+#V2 {
+  margin-bottom: -440px;
+  transform: translate(846px,-331px);
+} */
+
+/* arranges rowcontainers in column within the main container */
 #MainContainer {
   display: flex;
   flex-direction: column;
@@ -26,6 +97,11 @@ html {
 
 }
 
+/* #V p {
+  margin-bottom: -30px;
+} */
+
+/* arranges other type elements in row */
 .rowcontainer {
   display: flex;
   flex-direction: row;
@@ -33,6 +109,7 @@ html {
   height: auto;
 }
 
+/* styling for big fonts */
 #N, #E, #E2, #V {
   font-family: 'Open Sans';
   font-weight: 700;
@@ -41,10 +118,12 @@ html {
   margin-bottom: -100px;
 }
 
+/* color for all letters */
 p {
-  color: #e02457;
+  color: #d13247;
 }
 
+/* sizing and styling for subtexts */
 #numJuillet,#number,#a,#twentytwoH,#studioContainer,#a2,#numH,#num,#hq,#juilletnum,#mon p {
   font-family: 'Open Sans';
   font-size: 20px;
@@ -186,7 +265,7 @@ p {
   padding: 20px;
 }
 
-/* trying to use css selector */
+/* trying to use css selector by adding margin in the third row container*/
 p+p {
   margin-top : 10px;
 }

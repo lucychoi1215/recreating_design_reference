@@ -6,11 +6,53 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <!-- trying to get the blend mode + background to work -->
+
     <!-- <div id= "bg">
       <img src = "https://i.pinimg.com/originals/8b/ff/19/8bff19bfe4fbc62e45790e787c369e2a.jpg" alt= "background">
       </div> -->
-  <div id= "wrapper">
+       <!-- <div id= "wrapper2"> -->
+
+<!-- the text div needed to be in the background image div but I couldn't get both of them to work -->
+<!-- It either worked one way or the other but never both.
+Problems I faced : the image wouldn't stay as background image and the whole layout would shift downwards but never on top
+                 : couldn't get the letters in blendmode to stay in fixed position like other elements
+
+
+     <div id= "background">
+    <div id= "text">
+      <p> N </p>
+    </div>
+  </div> -->
+
+  <div id= "background">
+
+    <!-- <img src="https://c.wallhere.com/photos/16/af/wild_portrait_bw_woman_storm_girl_beautiful_face-869018.jpg!d" alt="bb"> -->
+<!-- <div id= "text">
+   <p id= "N2"> N </p>
+   <p id= "E3"> E </p>
+   <p id= "E4"> E </p>
+   <p id= "V2"> V </p>
+ </div> -->
+
+
+<!-- fixes all elements in place - unresponsive to screen size -->
+        <div id= "wrapper">
+
+<!-- holds all elements in place -->
     <div id= "MainContainer">
+
+      <!-- <div id= "blend">
+        <div id= "text">
+          <p> N</p>
+        <p> E</p>
+        <p> E</p>
+        <p> V</p>
+</div>
+      </div> -->
+
+<!-- layout divided into 4 row containers -->
     <div class= "rowcontainer">
       <div id= "N">
         <p> N </p>
@@ -26,6 +68,7 @@
         </div>
       </div>
 
+<!-- second row container -->
         <div class= "rowcontainer">
           <div id= "numJuilletMain">
         <div id= "numJuillet">
@@ -46,6 +89,7 @@
                   </div>
                 </div>
 
+<!-- third row container -->
           <div class= "rowcontainer">
             <div id= "studioContainer">
             <div id= "studio">
@@ -62,6 +106,7 @@
               </div>
                 </div>
 
+<!-- fourth row container -->
                     <div class= "rowcontainer">
                       <div id= "sub">
                         <div id= "subHorizontal">
@@ -72,8 +117,6 @@
                           <p> JUILLET <br> 2013</p>
                           </div>
                           </div>
-
-
                           <div id= "mon">
                             <p> MONUMENT NATIONAL </p>
                             </div>
@@ -84,6 +127,9 @@
                             </div>
                             </div>
                           </div>
+                          </div>
+                        </div>
+
 
               </body>
 </html>
